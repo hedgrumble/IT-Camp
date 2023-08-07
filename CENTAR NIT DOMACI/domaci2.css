@@ -1,0 +1,39 @@
+.div1, .div2 {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .div1 {
+    margin-left: 500px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 50px;
+    background-color: red;
+  }
+  
+  .div2 {
+    background-color: blue;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    max-width: 200%;
+    max-height: 300px;
+  }
+  
+  .h2 {
+    text-align: right;
+    color: black;
+    padding-right: 120px;
+  }
+  p {
+      margin: 30px;
+      border: 1px solid black;
+      outline: 1px solid red;
+      outline-offset: 15px;
+    }
+  
+    h1{
+      display:inline;
+      color:black;
+      
+    }
+  

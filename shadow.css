@@ -1,0 +1,24 @@
+div.picture {
+    width: 250px;
+    margin: -210px;
+}
+div.card {
+  width: 250px;
+  box-shadow: 0 6px 8px 0 black, 0 6px 8px 0 black;
+  text-align: center;
+}
+div.header {
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+div.container {
+  padding: 10px;
+}
+
+p {
+    color: rgb(40, 40, 40);
+    text-shadow: 3px 3px 4px black;
+}

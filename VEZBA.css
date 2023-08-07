@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.krug {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  background-image: linear-gradient(to bottom right, #ec0a64, #ca87158f);
+  border-radius: 50%;
+  animation: rotacija 5s linear infinite;
+  position: absolute;
+}
+
+@keyframes rotacija {
+  50% {
+    width: 900px;
+    height: 900px;
+  }
+}
+.formContainer {
+    z-index: 10;
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    display:flex;
+    padding: 20px;;
+    justify-content: space-around;
+
+
+}
+
+img {
+  width: 250px;
+  height: 650px;
+  object-fit: cover;
+}
+
+.forma {
+    width: 45%;
+}
+
+#naslov {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #89CAFF, #6589FF);
+    display: block;
+    color: white;
+    font-size: 20px;;
+    font-weight: bold;
+    cursor: pointer ;
+    box-shadow: 0 5px 20px #89caff94;
+    border-color: #89caff94 ;
+    margin: 20px 0;
+  
+
+}
+
+h2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+

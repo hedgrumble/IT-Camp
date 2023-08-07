@@ -1,0 +1,25 @@
+.wrapper2{
+    display:flex;
+    align-content: center;
+    align-items: baseline;
+
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: gray;
+}
+.div1 {
+  padding: 10px;
+  background-color: #73ad21;
+  width: 400px;
+}
+
+.div2 {
+  padding: 10px;
+  width: 400px;
+  background-color:  red;
+}
+
